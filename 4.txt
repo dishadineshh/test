@@ -1,0 +1,24 @@
+search and open docker desktop and let it run in the background
+open VSCODE
+right click-> new file-> add.java-> delete the text-> copy from repo-> run(w/o debugging) -> find docker extension and install else no need if already installed -> save -> output=30-> right click ->new file -> Dockerfile1 ->commands paste ->copy java code -> run (without debugging) -> save -> find dockerfile extension install it else no need if already installed ->terminal -> new terminal
+
+docker build -t img1 .
+docker run img1
+
+file name and run commands should be the same alphabets(caps/small) eg: Add/add
+go to docker -> images-> img1-> actions -> run -> run -> output=30
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODIFICATION:
+
+
+new file-> add.py -> save -> sun w/o debugging
+new file-> Dockerfile2 -> save -> run without debugging
+terminal -> new terminal
+
+docker build -t pic2 .
+docker run pic2
+
+go to docker-> images -> pic2 -> actions -> run -> run -> output=30
