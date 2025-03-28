@@ -1,0 +1,22 @@
+login to GitHub create a repo A
+create a folder on desktop b
+open gitbash
+clear all previous with cd .. and cd
+
+cd desktop
+cd b
+IF THIS DOESNT WORK GO TO THE FOLDER DIRECTLY OPEN GITBASH
+
+git remote add origin (repo url)
+git config -- user.email "vvce"
+vi sa.txt (HELLO)(PRESS I TO TYPE, ESC+SHIFT+:,W , Q, ENTER)
+cat sa.txt (shows hello)
+git add .
+git commit - "version1"
+git status
+git log
+git reset -- hard (id from log)
+git push origin master (wait for authentication)
+git clone (repo url)
+git pull origin master
+git fetch origin master
