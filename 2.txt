@@ -1,0 +1,31 @@
+create repo and folder and gitbash(open the folder and right click and show more options and open git bash here)(add something file to disha folder)
+
+git init
+git remote add origin (repourl)
+git config -- user.email "  "
+git add .
+git commit -m "1.0"
+git push origin master
+
+refresh GitHub (check file should reappear)
+git branch b1
+git checkout b1
+nano file.txt (good evening)
+git add . (ctrl+s, ctrl+x)
+git commit -m "2.0"
+git push origin b1
+git checkout master
+git branch b2
+git checkout b2
+nano file.txt ((HI) ctrl+s, ctrl+x)
+git add .
+git commit -m "3.0"
+git push origin b2
+git merge b1  (conflict should come)
+git log --merge 
+git diff b1 b2
+nano file.txt(remove everything other than the texts)
+git add .
+git commit -m "4.0"
+git push origin b2 (merging over)
+git merge b1
