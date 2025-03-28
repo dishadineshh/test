@@ -1,0 +1,28 @@
+localhost:8080
+username:admin
+password:folder/cdrive/progfile/Jenkins/jenkis.err/copy from notepad/paste
+NEW ITEM(name:test)
+FREESTYLE PROJECT (OK) 
+GITHUB PROJECT(PROFILE URL PASTE FROM TASKBAR)
+SOURCE CODE MANAGER- GIT
+PASTE REPOSITORY URL(TEST REPO THEN code from GitHub copy paste)
+BRANCH SPECIFIER (go to repo if it is main, change to main in Jenkins */main)
+go to BUILD STEPS select EXECUTE WINDOWS BATCH COMMAND SELECT IT TYPE javac add.java java add
+APPLY-> SHOWS AS SAVED -> SAVE IT
+BUILD NOW(SELECT ON left side)
+SHOWS #1 
+CONSOLE OUTPUT
+OUT PUT SHOWS AS 30
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MODIFICATION
+
+GO BACK
+SELECT CONFIGURE ON LEFT SIDE
+BUILD TRIGGERS
+POLL SCM
+USE BLACKBOX AI
+TYPE SCM COPY 5 MINS H/5 **** -> PASTE
+TYPE python add.py
+APPLY SHOWS AS SAVED SAVE IT
+SHOWS #1 
+CONSOLE OUTPUT (OUTPUT WONTTTT COMEEE)
